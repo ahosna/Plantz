@@ -1,5 +1,7 @@
 # Plantz - Simple plants watering automation using EP8266
 ![idea](docs/plantz-design.png)
+[![Video](https://www.youtube.com/vi/UDjTzoTrjCE/0.jpg)](https://www.youtube.com/watch?v=UDjTzoTrjCE)
+
 I built this, so that I could take care of my plants while I'm abroad. The system gives me information about:
 * air temperature
 * air relative humidity
