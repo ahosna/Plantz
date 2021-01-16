@@ -6,4 +6,4 @@
 * ```bundle install```
 
 # Running
-* ```bundle exec ./mqtt2zbx.rb```
+* ```bundle exec ruby ./mqtt2zbx.rb```
