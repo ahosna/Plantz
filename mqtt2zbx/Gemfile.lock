@@ -1,0 +1,22 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    foreverb (0.3.3)
+      thor (>= 0.15.0)
+    paho-mqtt (1.0.12)
+    thor (1.0.1)
+    zabbix_send (0.0.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  foreverb
+  paho-mqtt
+  zabbix_send
+
+RUBY VERSION
+   ruby 2.5.5p157
+
+BUNDLED WITH
+   2.1.4

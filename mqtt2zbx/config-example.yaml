@@ -1,0 +1,13 @@
+
+MQTT:
+  TOPIC: "my/mqtt/topic"
+  HOST: "127.0.0.1"
+  PORT: "1883"
+  USERNAME: "mqtt_username"
+  PASSWORD: "mqtt_password"
+  CLIENT_ID: "mqtt2zbx"
+
+ZBX:
+  HOST: "127.0.0.1"
+  HOSTNAME: "ZBX host entry"
+  PREFIX: "plantz"

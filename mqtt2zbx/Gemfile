@@ -1,0 +1,6 @@
+source "https://rubygems.org"
+ruby "2.5.5"
+
+gem 'paho-mqtt'
+gem 'foreverb'
+gem 'zabbix_send'
