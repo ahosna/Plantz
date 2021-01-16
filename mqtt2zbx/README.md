@@ -1,4 +1,5 @@
-# Small Ruby MQTT/ZBX forwarder
+# MQTT2ZBX - Small Ruby MQTT/ZBX forwarder
+Zabbix gateway is a short ruby script that subscribes to MQTT and publishes data to Zabbix. 
 
 # Install
 * Clone the repository.
