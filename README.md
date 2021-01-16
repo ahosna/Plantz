@@ -17,11 +17,14 @@ Currently I don't have a plan to automate watering. If I need to I manualy execu
 - [MQTT2ZBX - Connector from MQTT to Zabbix for monitoring](mqtt2zbx)
 - Hardware (bellow)
 
+# Monitoring
+Zabbix records the data and allows me to easily display it. I already had it setup for network monitoring so it was easy to use. With the [mqtt2zbx connector](mqtt2zbx) it's easy to [add items to zabbix](docs/zabbix-item-setting.png).
+![Zabbix view](docs/zabbix-screen.png)
+
 # V0 - POC
 - [x] can monitor environment
 - [x] on demand turning on pumps
 - [x] publish data to zabbix
-
 
 ## Schematic
 ![V0 Schematic](docs/plantz-schematic.png)
