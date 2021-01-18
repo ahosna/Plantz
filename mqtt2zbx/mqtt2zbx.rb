@@ -31,7 +31,9 @@ def process_message(message)
   json = JSON.parse(message.payload)
   value = json["value"]
   value = (value ? 1 : 0) if value === true or value === false
-  ZBX.zabbix_send(CONFIG["ZBX"]["HOST"], CONFIG["ZBX"]["HOSTNAME"], "#{CONFIG["ZBX"]["PREFIX"]}.#{item}", value)
+  zbx_item = "#{CONFIG["ZBX"]["PREFIX"]}.#{item}"
+  puts "#{zbx_item}: #{value}"
+  ZBX.zabbix_send(CONFIG["ZBX"]["HOST"], CONFIG["ZBX"]["HOSTNAME"], zbx_item, value)
 end
 
 def mqtt_handle
